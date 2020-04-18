@@ -14,15 +14,11 @@ public class Chia implements Tinh {
     @Override
     public float tinh(float a, float b) {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        if(b!=0){
+        if(b==0)
+            return Float.NEGATIVE_INFINITY;
+        else 
             return a/b;
         }
-        if(a==0){
-            return Float.POSITIVE_INFINITY;
-        }
-        return Float.NEGATIVE_INFINITY;
-    }
-
-   
-    
 }
+   
+
