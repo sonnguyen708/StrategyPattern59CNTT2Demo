@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package thanhson_59132132_straterypattern;
+package Bai2;
 
 /**
  *
  * @author Admin
  */
-public interface Tinh {
-    public float tinh(float a,float b);
+public interface IThanhToan {
+    public double thanhtoan(int TienHang); 
 }

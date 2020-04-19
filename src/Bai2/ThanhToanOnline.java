@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package thanhson_59132132_straterypattern;
+package Bai2;
 
 /**
  *
  * @author Admin
  */
-public class Cong implements Tinh{
-
+public class ThanhToanOnline implements IThanhToan{
     @Override
-    public float tinh(float a, float b) {
+    public double thanhtoan(int TienHang) {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        return a+b;
-    } 
+        if(TienHang < 1000000) 
+            return TienHang-(TienHang*0.05);
+        else 
+            return TienHang-(TienHang*0.07);   
+        }
 }
