@@ -2,6 +2,9 @@
   Bài tập 1: Cài đặt các lớp trong sơ đồ sau đây theo mẫu Stratery Pattern
   2. Viết mã lệnh cho các lớp trong sơ đồ trên.
   3. Thực hiện việc tính toán biểu thức 75 + 12, 54 - 78 trong context.
+  
+  
+  
   Bài tập 2: Cài đặt các lớp sau đây theo mẫu Stratery Pattern
   + Interface IThanhToan: Khai báo phương thức thanh toán trả về số tiền thanh toán
   dựa trên giá trị hàng hoá đã mua.
@@ -14,6 +17,9 @@
   của đối tượng hinhThucTT.
   + Hàm main của lớp thực thi khởi tạo hai giỏ hàng với hai hình thức thanh toán khác
   nhau, in ra màn hình danh sách hàng hoá, tiền hàng, số tiền khách phải trả.
+  
+  
+  
 Bài tập 3: Cài đặt các lớp sau đây theo mẫu Stratery Pattern
 + Interface ISoSanh khai báo phương thức soSanh:
 - Nếu o1>o2: trả về giá trị 1
